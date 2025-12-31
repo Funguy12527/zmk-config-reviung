@@ -34,7 +34,7 @@ The Reviung41 configuration mirrors the QMK keymap as closely as possible while 
 1. **Build locally**:
    ```bash
    cd zmk
-   west build -p -d build/reviung41 -b nice_nano_v2 -- -DZMK_CONFIG="$(pwd)/config" -DKEYMAP_FILE="$(pwd)/keyboards/reviung41/keymap.dtsi"
+   west build -p -d build/reviung41 -b nice_nano -- -DZMK_CONFIG="$(pwd)/config" -DKEYMAP_FILE="$(pwd)/keyboards/reviung41/keymap.dtsi"
    ```
 
 2. **Build via GitHub Actions**:
