@@ -304,10 +304,10 @@
 
         adjust_layer {
             bindings = <
-&trans  &trans  &trans   &trans           &trans       &sc_select          &email  &kp C_VOLUME_UP  &kp UP    &kp C_VOLUME_DOWN  &trans  &rgb_ug RGB_EFF
-&trans  &trans  &iterm2  &vscode          &sc_area     &sc_area2           &trans  &kp LEFT         &kp DOWN  &kp RIGHT          &trans  &trans
-&trans  &trans  &chrome  &slack           &spotify     &trans              &trans  &trans           &trans    &trans             &trans  &trans
-                         &rgb_ug RGB_TOG  &bootloader              &trans          &bitg            &bit
+&trans  &trans  &trans   &trans           &trans       &sc_select          &kp K_MUTE  &kp C_VOLUME_DOWN  &kp UP    &kp C_VOLUME_UP  &trans  &rgb_ug RGB_EFF
+&trans  &trans  &iterm2  &vscode          &sc_area     &sc_area2           &trans      &kp LEFT           &kp DOWN  &kp RIGHT        &trans  &trans
+&trans  &trans  &chrome  &slack           &spotify     &trans              &trans      &trans             &trans    &trans           &trans  &trans
+                         &rgb_ug RGB_TOG  &bootloader              &trans              &bitg              &bit
             >;
         };
     };
