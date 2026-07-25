@@ -283,7 +283,7 @@
         lower_layer {
             bindings = <
 &kp ESC       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5          &kp NUMBER_6  &kp N7     &kp N8     &kp N9          &kp N0    &kp BSPC
-&kp CAPSLOCK  &kp AT        &kp DLLR      &kp LBKT      &kp LPAR      &kp LBRC              &kp RBRC      &kp RPAR   &kp RBKT   &kp MINUS       &kp STAR  &trans
+&kp CAPSLOCK  &kp AT        &kp DLLR      &kp LBKT      &kp LPAR      &kp LBRC              &kp RBRC      &kp RPAR   &kp RBKT   &kp MINUS       &kp STAR  &kp PIPE
 &kp HOME      &kp AMPS      &kp HASH      &kp PRCNT     &kp EXCL      &kp PLUS              &kp EQUAL     &kp TILDE  &kp GRAVE  &kp UNDERSCORE  &kp BSLH  &kp DEL
                                           &kp LGUI      &trans                      &trans                &mo 2      &trans
             >;
